@@ -1,57 +1,86 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
   <title>Zijian Huang</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Zijian Huang">
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧠</text></svg>">
 </head>
+
 <body>
-  <div class="container">
-    <header>
-      <img src="photo.jpg" alt="Zijian Huang" class="avatar"/>
-      <h1>Zijian Huang</h1>
-      <p class="contact">
-        Ann Arbor, MI · <a href="mailto:nameless@umich.com">nameless@umich.com</a>
-      </p>
-      <p><a href="cv.pdf" target="_blank" class="cv-link">Download CV</a></p>
-    </header>
+  <table style="width:100%;max-width:900px;margin:auto;border-spacing:0;">
+    <tr>
+      <td style="padding:2.5%;width:60%;vertical-align:top">
+        <p style="text-align:center;"><name>Zijian Huang</name></p>
 
-    <section>
-      <h2>Education</h2>
-      <ul>
-        <li><strong>University of Michigan, Ann Arbor</strong><br>
-        B.S.E. in Industrial & Operations Engineering (Aug 2024 – Present)<br>
-        GPA: 4.00/4.00</li>
+        <p>
+          I am a dual-degree undergraduate student at the <a href="https://umich.edu/">University of Michigan</a> and <a href="https://en.sjtu.edu.cn/">Shanghai Jiao Tong University</a>, working on Bayesian optimization and diffusion models.
+        </p>
 
-        <li><strong>Shanghai Jiao Tong University</strong><br>
-        B.Eng in Electrical and Computer Engineering (Aug 2022 – Present)<br>
-        GPA: 3.84/4.00 (Ranking: 6/238)</li>
-      </ul>
-    </section>
+        <p>
+          I am advised by <a href="https://ioe.engin.umich.edu/people/raed-alkontar/">Prof. Raed Al Kontar</a> and <a href="https://qingqu.engin.umich.edu/">Prof. Qing Qu</a>.
+        </p>
 
-    <section>
-      <h2>Research Experience</h2>
-      <ul>
-        <li><strong>Bayesian Optimization</strong><br>
-        Advisor: Prof. Raed Al Kontar (Apr 2025 – Present)<br>
-        Designing and analyzing BO methods for complex black-box optimization problems including multi-objective, collaborative, and mixed-variable settings.</li>
+        <p>
+          My current work focuses on designing collaborative and multi-objective Bayesian optimization algorithms, and analyzing generalization in generative diffusion models via probability flow dynamics.
+        </p>
 
-        <li><strong>Diffusion Models</strong><br>
-        Advisor: Prof. Qing Qu (Oct 2024 – Present)<br>
-        Developing <em>Probability Flow Distance</em> to study generalization in diffusion models, identifying memorization and bias-variance transitions.</li>
-      </ul>
-    </section>
+        <p style="text-align:center">
+          <a href="cv.pdf">CV</a> &nbsp;/&nbsp;
+          <a href="mailto:nameless@umich.com">Email</a> &nbsp;/&nbsp;
+          <a href="https://github.com/zjhuangg">GitHub</a>
+        </p>
+      </td>
 
-    <section>
-      <h2>News</h2>
-      <ul>
-        <li>Accenture IOE Scholarship, UMich, Mar 2025</li>
-        <li>National Scholarship, China, Nov 2024</li>
-      </ul>
-    </section>
-  </div>
+      <td style="padding:2.5%;width:35%;text-align:center">
+        <img src="photo.jpg" style="width:100%;max-width:200px;border-radius:50%;" alt="Zijian Huang">
+      </td>
+    </tr>
+  </table>
+
+  <table style="width:100%;max-width:900px;margin:auto;border-spacing:0;">
+    <tr>
+      <td style="padding:20px;">
+        <heading>News</heading>
+        <ul>
+          <li>[03/2025] Received the <strong>Accenture IOE Scholarship</strong> at University of Michigan.</li>
+          <li>[11/2024] Awarded <strong>National Scholarship</strong> by the Ministry of Education of China.</li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:20px;">
+        <heading>Education</heading>
+        <ul>
+          <li><strong>University of Michigan, Ann Arbor</strong><br>
+          B.S.E. in Industrial & Operations Engineering (Aug 2024 – Present)<br>
+          GPA: 4.00 / 4.00</li>
+
+          <li><strong>Shanghai Jiao Tong University</strong><br>
+          B.Eng in Electrical and Computer Engineering (Aug 2022 – Present)<br>
+          GPA: 3.84 / 4.00 (Rank: 6 / 238)</li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:20px;">
+        <heading>Research Experience</heading>
+        <ul>
+          <li><strong>Bayesian Optimization</strong><br>
+          Advisor: Prof. Raed Al Kontar (Apr 2025 – Present)<br>
+          Researching collaborative, multi-objective, and mixed-variable Bayesian optimization techniques for complex black-box functions.</li>
+
+          <li><strong>Diffusion Models</strong><br>
+          Advisor: Prof. Qing Qu (Oct 2024 – Present)<br>
+          Developing <em>Probability Flow Distance</em> to quantify generalization behaviors in diffusion-based generative models.</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
 </body>
 </html>
 
