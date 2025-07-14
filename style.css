@@ -16,10 +16,8 @@ a:hover {
 }
 
 name {
-  font-size: 30px;
-  font-weight: bold;
-  display: block;
-  margin-bottom: 10px;
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 32px;
 }
 
 heading {
