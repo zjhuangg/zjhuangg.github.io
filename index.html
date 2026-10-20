@@ -6,13 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="Zijian Huang">
   <link rel="stylesheet" href="style.css">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧠</text></svg>">
 </head>
 
 <body>
   <main class="page">
     <nav class="site-nav" aria-label="Primary navigation">
-      <a class="nav-name" href="index.html">Zijian Huang</a>
+      <a class="nav-name" href="index.html" aria-current="page">Zijian Huang</a>
       <div class="nav-links">
         <a href="publications.html">Publications</a>
         <a href="misc.html">Misc</a>
@@ -21,28 +20,27 @@
     </nav>
 
     <header class="hero">
+      <figure class="portrait-wrap">
+        <img class="portrait" src="photo-zijian.jpg" alt="Zijian Huang">
+      </figure>
       <div class="hero-copy">
-        <p class="eyebrow">Industrial Engineering · Machine Learning · Optimization</p>
         <h1>Zijian Huang</h1>
         <p class="intro">
-          Hi! I am a first-year Ph.D. student in Industrial and Operations Engineering at the <a href="https://umich.edu/">University of Michigan</a>, advised by <a href="https://alkontar.engin.umich.edu/">Prof. Raed Al Kontar</a>.
+          I am a Ph.D. student in Industrial and Operations Engineering at the <a href="https://umich.edu/">University of Michigan</a>, advised by <a href="https://alkontar.engin.umich.edu/">Prof. Raed Al Kontar</a>.
         </p>
         <p>
           Prior to that, I received my undergraduate education in Industrial and Operations Engineering at the University of Michigan and Electrical and Computer Engineering at <a href="https://en.sjtu.edu.cn/">Shanghai Jiao Tong University</a>.
         </p>
         <p>
-          I am broadly interested in the intersection of machine learning, statistics, and optimization. My current interests are Bayesian optimization and diffusion models.
+          I am interested in developing reliable and efficient AI systems through machine learning, statistics, and optimization. My current interests include Bayesian optimization, the evaluation and reliability of LLM-based agents and multi-agent systems, and sequential decision-making under limited computational budgets.
         </p>
         <div class="hero-actions">
-          <a class="button primary" href="cv.pdf">CV</a>
-          <a class="button" href="mailto:nameless@umich.com">Email</a>
+          <a href="cv.pdf">CV</a>
+          <a href="mailto:nameless@umich.edu">Email</a>
         </div>
-        <p class="updated">Updated in 5/2026</p>
+        <p class="updated">Last updated: October 2026</p>
       </div>
 
-      <figure class="portrait-wrap">
-        <img class="portrait" src="photo-zijian.jpg" alt="Zijian Huang">
-      </figure>
     </header>
 
     <section class="section">
@@ -50,6 +48,10 @@
         <h2>News</h2>
       </div>
       <div class="news-list">
+        <article class="news-item">
+          <time datetime="2026-09">09/2026</time>
+          <p>Received the <a href="https://rackham.umich.edu/funding/rackham-conference-travel-grant/">Rackham Conference Travel Grant</a></p>
+        </article>
         <article class="news-item">
           <time datetime="2025-03">03/2025</time>
           <p>Received the <strong>Accenture IOE Scholarship</strong> at UMich.</p>
@@ -82,7 +84,9 @@
             <a href="https://peng8wang.github.io/">Peng Wang</a>,
             <a href="https://qingqu.engin.umich.edu/">Qing Qu</a>
           </p>
+          <p class="venue"><em>ICML Workshop on High-dimensional Learning Dynamics (HiLD), 2025.</em></p>
           <div class="publication-links">
+            <a href="https://openreview.net/forum?id=zbSsdqgWR6">OpenReview</a>
             <a href="https://arxiv.org/abs/2505.20123">ArXiv</a>
             <a href="https://www.huijiezh.com/probability-flow-distance/index.html">Website</a>
             <a href="publications.html">All Publications</a>
